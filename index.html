@@ -1,23 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>site</title>
-<style>
-  header {
-background-color: #183c63;
-color: #ffffff;
-
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Vôlei</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #183c63;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .post {
+            margin-bottom: 30px;
+        }
+        .post-img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #183c63;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
+
+    <header>
+        <h1>Site de Vôlei</h1>
+        <p>Venha aprender mais sobre o vôlei!</p>
     </header>
-    site-de-v-lei
-    venha aprender mais sobre o vôlei
-</header>
-</main>
-<h2>Meu primeiro post</h2>
-<p>Por: helidya gabriela</p>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de vôlei.</p>
+
+    <main>
+        <article class="post">
+            <h2>Meu primeiro post</h2>
+            <p><strong>Por:</strong> Helidya Gabriela</p>
+            <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de vôlei, táticas de jogo e muito mais.</p>
+            
+            <img class="post-img" src="https://images.unsplash.com/photo-1592656094267-764a45023326?q=80&w=800" alt="Bola de vôlei na rede">
+        </article>
+
+        <hr>
+
+        <article class="post">
+            <h2>Dica do Dia: O Saque Perfeito</h2>
+            <p><strong>Por:</strong> Helidya Gabriela</p>
+            <p>O saque é o primeiro ataque do jogo. Concentração e a postura correta do corpo são fundamentais para acertar a trajetória da bola.</p>
+            
+            <img class="post-img" src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?q=80&w=800" alt="Jogadores de vôlei em quadra">
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Blog de Vôlei da Helidya. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
